@@ -1,0 +1,10 @@
+MOV AX,02
+MOV BX,03
+ADD AX,BX
+MOV [0500],AX   
+MOV CX,[0500]
+HLT
+
+
+
+
