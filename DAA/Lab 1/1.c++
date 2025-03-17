@@ -25,7 +25,7 @@ void print(int arr[] ,int n){
     cout<<endl;
 }
 int main(){
-    int arr[7] = {7,6,5,4,3,2,1};
+    int arr[7] = {7,18,5,10,3,2,1};
     int n = 7;
     print(arr,n);
     bubblesort(arr,n);
